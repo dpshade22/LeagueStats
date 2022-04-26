@@ -81,7 +81,7 @@ myKDA, themKDA = round(myKDA / df.shape[0], 2), round(themKDA / df.shape[0], 2)
 myVS, themVS = round(myVS / df.shape[0], 2), round(themVS / df.shape[0], 2)
 
 
-wr = round(w / df.shape[0], 4) * 100
+wr = round(w / df.shape[0], 3) * 100
 
 
 newCol1, newCol2, newCol3, newCol4, newCol5 = st.columns(5)
